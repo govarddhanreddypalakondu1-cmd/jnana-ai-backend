@@ -1,5 +1,11 @@
 {
   "name": "jnana-ai-backend",
   "version": "1.0.0",
-  "type": "module"
+  "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node api/chat.js"
+  }
 }
