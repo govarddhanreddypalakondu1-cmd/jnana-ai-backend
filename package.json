@@ -1,0 +1,16 @@
+{
+  "name": "jnana-ai-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node api/chat.js",
+    "start": "node api/chat.js"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "cors": "^2.8.5"
+  }
+}
