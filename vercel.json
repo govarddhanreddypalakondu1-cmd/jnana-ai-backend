@@ -1,12 +1,5 @@
 {
-  "functions": {
-    "api/chat.js": {
-      "runtime": "nodejs24.x"
-    },
   "rewrites": [
-    {
-      "source": "/api/:path*",
-      "destination": "/api/:path*"
-    }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
